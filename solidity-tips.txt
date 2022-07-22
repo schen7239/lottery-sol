@@ -1,0 +1,1 @@
+1) Public vs External - public functions copy the input, thus using more memory. This increases the gas price used if there are large data sets as parameters. External can read directly from the calldata thus it is more cheap.
